@@ -1,0 +1,112 @@
+.cart-container {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.cart-title {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Each Cart Row */
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+/* Product Image */
+.cart-item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+/* Product Info */
+.cart-info {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.cart-info h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.cart-info p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+/* Quantity Controls */
+.cart-qty {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cart-qty button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.cart-qty span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Remove Button */
+.remove-btn {
+  border: none;
+  background: crimson;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  opacity: 0.8;
+}
+
+/* Summary Section */
+.cart-summary {
+  margin-top: 40px;
+  padding: 20px;
+  background: black;
+  color: white;
+  border-radius: 12px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkout-btn {
+  border: none;
+  background: gold;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.checkout-btn:hover {
+  opacity: 0.85;
+}
